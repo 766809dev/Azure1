@@ -31,7 +31,7 @@ public class MyUI extends UI {
 
         final TextField city = new TextField("Type in your hometown:");
 
-        Button button = new Button("Click for Fun");
+        Button button = new Button("Click for MORE Fun");
         button.addClickListener(e -> {
             layout.addComponent(new Label("Thanks " + name.getValue() 
                     + ", it works!"));
